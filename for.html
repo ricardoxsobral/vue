@@ -13,8 +13,11 @@
 
     <div id="app">
         <ul>
-            <li v-for="(value, key, index) in frutas">
+            <!--<li v-for="(value, key, index) in frutas">
                 <p>{{key}} : R${{value}}</p>
+            </li>-->
+            <li v-for="frut in fruta">
+                <p>{{frut.nome}} - {{frut.preco}}</p>
             </li>
         </ul>
     </div>
