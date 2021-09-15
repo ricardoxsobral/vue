@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+</head>
+
+<body>
+
+    <div id="app">
+        <p>{{msg}}</p>
+        <p>{{vdd ? 'Verdade' : 'False'}}</p>
+        <p>Materiais: {{materiais[0] + ', ' + materiais[1] + ' e ' + materiais[2]}}</p>
+        <p>Idade e Nome: {{aluno.nome +' - '+ aluno.idade}}</p>
+        <p>{{num1}}</p>
+        <p>{{ metodo(2)}}</p>
+
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
